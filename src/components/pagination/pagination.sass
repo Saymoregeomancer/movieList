@@ -1,0 +1,22 @@
+.pages
+        display: flex
+        justify-content: center
+        margin: 20px auto
+        min-width: 200px
+        font-size: 20px 
+.page
+        background-color: #F7F7F7
+        padding: 15px 25px
+        border:  solid 1px #F7F7F7
+        transition: all 0.5s ease-in-out
+        &:first-child               
+                border-radius: 10px 0 0 10px
+        &:last-child
+                border-radius: 0 10px 10px 0
+        &:hover
+                color: white
+                background-color: rgb(80 ,80,80)
+                border-color: rgb(80 ,80,80)
+        &_active
+                border-color: rgb(80 ,80,80)
+                border-radius: 5px
